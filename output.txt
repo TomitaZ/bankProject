@@ -1,0 +1,181 @@
+Script started on Sun 18 Apr 2021 08:28:59 PM HST
+]0;tomitaz@uhx02:~/project2[?1034huhx02:/home/t/tomitaz/project2% ./project2
+Records have been loaded in.
+Welcome to Aspen the bank of the future!
+--------------------------------------------------------
+Select an option by typing the corresponding name.
+add: Add a new record in the database
+printall: Print all records in database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database
+quit: Quit the program
+--------------------------------------------------------
+Choose option: p
+--------------------------------------------------------
+Select an option by typing the corresponding name.
+add: Add a new record in the database
+printall: Print all records in database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database
+quit: Quit the program
+--------------------------------------------------------
+Choose option: add
+What is the account number?: 10
+What is your name?: Tim
+When you are done typing your address put "|".
+What is your address?: 123 Address St.|
+
+Record has been added successfully.
+--------------------------------------------------------
+Select an option by typing the corresponding name.
+add: Add a new record in the database
+printall: Print all records in database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database
+quit: Quit the program
+--------------------------------------------------------
+Choose option: find  
+What is the account number?: 10
+Account Number: 10
+Account Name: Tim
+Account Address: 123 Address St.
+
+Record Found Successfully...
+--------------------------------------------------------
+Select an option by typing the corresponding name.
+add: Add a new record in the database
+printall: Print all records in database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database
+quit: Quit the program
+--------------------------------------------------------
+Choose option: quit
+]0;tomitaz@uhx02:~/project2uhx02:/home/t/tomitaz/project2% ./project2_debug
+Debug: Entering readfile method in llist.cpp.
+Debug: Entering addRecord method in llist.cpp.
+Account Number: 10
+Name: Tim
+Address: 123 Address St.
+Records have been loaded in.
+Welcome to Aspen the bank of the future!
+Debug: Entering the getOption method in user_interface.cpp 
+--------------------------------------------------------
+Select an option by typing the corresponding name.
+add: Add a new record in the database
+printall: Print all records in database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database
+quit: Quit the program
+--------------------------------------------------------
+Choose option: add
+Debug: Entering the add method in user_interface.cpp.
+Debug: Entering getAccountNumber method in user_interface.cpp
+What is the account number?: 1000
+Debug: Entering getName method in user_interface.cpp
+What is your name?: Zolbo
+Debug: Entering getAddress in user_interface.cpp
+When you are done typing your address put "|".
+What is your address?: 123 Hawaii St.|
+
+Debug: Entering addRecord method in llist.cpp.
+Account Number: 1000
+Name: Zolbo
+Address: 123 Hawaii St.
+Record has been added successfully.
+Debug: Entering the getOption method in user_interface.cpp 
+--------------------------------------------------------
+Select an option by typing the corresponding name.
+add: Add a new record in the database
+printall: Print all records in database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database
+quit: Quit the program
+--------------------------------------------------------
+Choose option: add
+Debug: Entering the add method in user_interface.cpp.
+Debug: Entering getAccountNumber method in user_interface.cpp
+What is the account number?: 500
+Debug: Entering getName method in user_interface.cpp
+What is your name?: Ravi
+Debug: Entering getAddress in user_interface.cpp
+When you are done typing your address put "|".
+What is your address?: 123 Oahu St.|
+
+Debug: Entering addRecord method in llist.cpp.
+Account Number: 500
+Name: Ravi
+Address: 123 Oahu St.;
+Record could not be added. 
+Debug: Entering the getOption method in user_interface.cpp 
+--------------------------------------------------------
+Select an option by typing the corresponding name.
+add: Add a new record in the database
+printall: Print all records in database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database
+quit: Quit the program
+--------------------------------------------------------
+Choose option: p
+Debug: Entering operator method in llist.cpp
+Account Number: 10
+Account Name: Tim
+Account Address: 123 Address St.
+
+Account Number: 500
+Account Name: Ravi
+Account Address: 123 Oahu St.;
+
+Account Number: 1000
+Account Name: Zolbo
+Account Address: 123 Hawaii St.
+
+Debug: Entering the getOption method in user_interface.cpp 
+--------------------------------------------------------
+Select an option by typing the corresponding name.
+add: Add a new record in the database
+printall: Print all records in database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database
+quit: Quit the program
+--------------------------------------------------------
+Choose option: delete
+Debug: Entering the deleteRecord method in user_interface.cpp
+Debug: Entering getAccountNumber method in user_interface.cpp
+What is the account number?: 500
+Debug: Entering deleteRecord method in llist.cpp.
+Account Number: 500
+Record was deleted successfullyDebug: Entering the getOption method in user_interface.cpp 
+--------------------------------------------------------
+Select an option by typing the corresponding name.
+add: Add a new record in the database
+printall: Print all records in database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database
+quit: Quit the program
+--------------------------------------------------------
+Choose option: p
+Debug: Entering operator method in llist.cpp
+Account Number: 10
+Account Name: Tim
+Account Address: 123 Address St.
+
+Account Number: 1000
+Account Name: Zolbo
+Account Address: 123 Hawaii St.
+
+Debug: Entering the getOption method in user_interface.cpp 
+--------------------------------------------------------
+Select an option by typing the corresponding name.
+add: Add a new record in the database
+printall: Print all records in database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database
+quit: Quit the program
+--------------------------------------------------------
+Choose option: quit
+Debug: Entering writefile method in llist.cpp.
+Debug: Entering cleanup method in llist.cpp.
+]0;tomitaz@uhx02:~/project2uhx02:/home/t/tomitaz/project2% exit
+exit
+
+Script done on Sun 18 Apr 2021 08:31:25 PM HST
